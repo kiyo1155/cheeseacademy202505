@@ -1,0 +1,749 @@
+/* ここから下に記載していく */
+
+.header {
+    float: right;
+    display: flex;
+}
+
+.header a {
+    margin: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.top {
+    background: url(../img/mainbg.png);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.top p { 
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+} 
+
+.academy{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.setsumei{
+    margin-top: 60px;
+}
+
+.setsumei_danraku{
+    margin-top: 40px;
+}
+
+.course{
+    margin-top: 60px;
+}
+
+.course_p{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+p{
+    font-size: 16px;
+}
+
+h2{
+    font-size: 24px;
+    margin-top: 60px;
+}
+
+.about{
+    text-align: center;
+}
+
+#about{
+    color: yellow;
+}
+
+.course{
+    text-align: center;
+}
+
+.COURSEbox1{
+    display: flex;
+}
+
+.COURSE_text1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: ghostwhite;
+}
+
+#COURSE_text1{
+    margin: auto;
+    width: 80%;
+}
+
+.COURSE_Img1{
+    width: 50%;
+}
+
+.COURSE_img1{
+    width: 100%;
+    display: block;
+}
+
+.COURSEbox2{
+    display: flex;
+}
+
+.COURSE_text2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: ghostwhite;
+}
+
+#COURSE_text2{
+    margin: auto;
+    width: 80%;
+}
+
+.COURSE_Img2{
+    width: 50%;
+}
+
+.COURSE_img2{
+    width: 100%;
+    display: block;
+}
+
+.COURSEbox3{
+    display: flex;
+}
+
+.COURSE_text3{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: ghostwhite;
+}
+
+#COURSE_text3{
+    margin: auto;
+    width: 80%;
+}
+
+.COURSE_Img3{
+    width: 50%;
+}
+
+.COURSE_img3{
+    width: 100%;
+    display: block;
+}
+
+
+
+.img_port{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.news{
+    text-align: center;
+}
+
+#news{
+    margin-top: 60px;
+}
+
+#news_text{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article1{
+    width: 300px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.article1:hover{
+    transform: translateY(-5px);
+}
+
+button{
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 60px;
+    background: rgb(185, 185, 62);
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+button:hover{
+    transform: translateY(-5px);
+}
+
+.day{
+    margin-top: 30px;
+}
+
+.news_text{
+    margin-top: 24px;
+}
+
+.access{
+    text-align: center;
+}
+
+iframe{
+    width: 100%;
+}
+
+.contact{
+    text-align: center;
+}
+
+.map{
+    display: block;
+}
+
+/* .companyinformation{
+    background: ghostwhite;
+    font: 50px;
+}
+
+.companyinformationcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.schoolname{
+    display: flex;
+    justify-content: center;
+}
+
+.adress{
+    display: flex;
+    justify-content: center;
+}
+
+.tel{
+    display: flex;
+    justify-content: center;
+}
+
+.fax{
+    display: flex;
+    justify-content: center;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    margin-right: 30px;
+    width: 200px;
+    display: flex;
+    justify-items: left;
+}
+
+.anser{
+    width: 400px;
+    display: flex;
+    justify-items: left;
+}
+
+.contact{
+    margin-bottom: 70px;
+}
+
+.contacttitle{
+    margin-top: 30px;
+}
+
+.contacttext1{
+    margin-top: 60px;
+}
+
+table{
+    text-align: left;
+    border-collapse: collapse;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #707070;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.formtitle{
+    width: 240px;
+    height: 100px;
+    padding-left: 16px;
+    padding-right: 64px;
+    border-left: none;
+}
+
+.formtext{
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-right: none;
+}
+
+.formtextarea{
+    height: 200px; 
+    width: 300px; 
+    font-size: 20px;
+}
+
+.formsize{
+    height: 30px;
+    width: 400px;
+}
+
+.options{
+    border-right: none;
+}
+
+.textform{
+    height: 30px; width: 300px; font-size: 20px;
+}
+
+/* input type="text" {
+    width: 70%;
+} */
+
+
+td{
+    padding-left: 10px;
+}
+
+.options{
+    margin: auto;
+}
+
+.optiontext{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.follow{
+    position: fixed;
+    z-index: 999999;
+    right: 40px;
+    bottom: 40px;
+    background-color: pink;
+    /* margin: auto; */
+    display: block;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.footer{
+    text-align:center ;
+    background: #707070;
+    color: white;
+    font: 30px;
+    margin-top: 140px;
+    height: 90px;
+}
+
+.footertext{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+    .header{
+        display: flex;
+        float: none;
+    }
+    .header a {
+      margin: 2%;
+    }
+
+    .top {
+        background: url(../img/mainbg.png);
+        background-size: cover;
+        height: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .top h1 {
+        font-size: 25px;
+        color: white;
+    }
+
+    .top p { 
+        color: white;
+        font-size: 15px;
+        margin: 30px;
+    } 
+
+    p{
+        font-size: 9.5px;
+        word-break: keep-all;
+        white-space: normal;
+    }
+
+    h2{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .academy{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+    .setsumei{
+        margin-top: 10px;
+    }
+    
+    .setsumei_danraku{
+        margin-top: 10px;
+    }
+    
+    .course{
+        margin-top: 10px;
+    }
+    
+    .course_p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img_port{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .COURSEbox1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .COURSE_text1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: ghostwhite;
+        order: 1;
+    }
+    
+    #COURSE_text1{
+        margin: auto;
+        width: 80%;
+    }
+    
+    .COURSE_Img1{
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        object-fit: cover; 
+        object-position: bottom;
+    }
+
+    .COURSEbox2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .COURSE_text2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: ghostwhite;
+        order: 1;
+    }
+    
+    #COURSE_text2{
+        margin: auto;
+        width: 80%;
+    }
+    
+    .COURSE_Img2{
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        object-fit: cover; 
+        object-position: bottom;
+    }
+
+
+    .COURSEbox3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .COURSE_text3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: ghostwhite;
+        order: 1;
+    }
+    
+    #COURSE_text3{
+        margin: auto;
+        width: 80%;
+    }
+    
+    .COURSE_Img3{
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        object-fit: cover; 
+        object-position: bottom;
+    }
+    
+    .news{
+        text-align: center;
+    }
+    
+    #news{
+        margin-top: 20px;
+    }
+    
+    #news_text{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    button{
+        margin: auto;
+        display: block;
+        width: 150px;
+        height: 30px;
+        background: rgb(185, 185, 62);
+        font-size: 15px;
+        color: white;
+        border: none;
+        border-radius: 50px;
+    }
+
+    .news{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #news{
+        margin-top: 20px;
+    }
+
+    #news_text{
+        margin-top: 10px;
+    }
+    
+    .article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .article1{
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .day{
+        margin-top: 10px;
+    }
+    
+    .news_text{
+        margin-top: 12px;
+    }
+
+    .more{
+        margin-top: 20px;
+    }
+
+    .map{
+        height: 100px;
+    }
+
+    
+
+    .schoolname{
+        display: flex;
+        justify-content: center;
+    }
+
+    .adress{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tel{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fax{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mail{
+        display: flex;
+        justify-content: center;
+    }
+
+    .info{
+        margin-right: 15px;
+        width: 20%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .anser{
+        width: 40%;
+        display: flex;
+        justify-items: left;
+    }
+
+    .contact{
+        margin-bottom: 20px;
+    }
+    
+    .contacttitle{
+        margin-top: 10px;
+    }
+    
+    .contacttext1{
+        margin-top: 20px;
+    }
+
+    .formtitle{
+        width: 120px;
+        height: 50px;
+        padding-left: 2px;
+        padding-right: 64px;
+        border-left: none;
+    }
+
+    .formtext{
+        width: 120px;
+        height: 50px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        border-right: none;
+    }
+
+    table{
+        text-align: left;
+        border-collapse: collapse;
+        border-left: 0px;
+        border-right: 0px;
+        border-color: #707070;
+        margin: auto;
+        margin-bottom: 30px;
+        max-width: 100%
+        width: 100%;
+    }
+    
+    .formtitle{
+        /* width: 80px;
+        height: 80px; */
+        border-left: none;
+        white-space: nowrap;
+    }
+    
+    .formtext{
+        width: 100px;
+        height: 60px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        border-right: none;
+        box-sizing: border-box;
+    }
+
+    .formtextarea{
+        height: 150px; 
+        width: 180px; 
+        font-size: 20px;
+    }
+
+    .textform{
+        height: 30px; width: 200px; font-size: 15px;
+        box-sizing: border-box;
+    }
+    
+    .formsize{
+        height: 30px;
+        width: 200px;
+    }
+    
+    .options{
+        border-right: none;
+    }
+   
+    td{
+        padding-left: 0px;
+    }
+    
+    .options{
+        margin: auto;
+    }
+    
+    .optiontext{
+        display: flex;
+        align-items: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+  }
